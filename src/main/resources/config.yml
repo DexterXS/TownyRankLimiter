@@ -1,0 +1,9 @@
+ranks:
+  Deputy: 3
+  Policeman: 10
+  Judge: 2
+
+messages:
+  rank_limit_exceeded: "&cThe maximum number of rank {rank} has been exceeded, the maximum is: {limit}."
+  reload_success: "&aConfiguration reloaded successfully."
+  no_permission: "&cYou do not have permission to execute this command."

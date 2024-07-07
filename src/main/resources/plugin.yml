@@ -1,0 +1,14 @@
+name: TownyRankLimiter
+version: '${project.version}'
+main: org.dexterx.mc.townyranklimiter.TownyRankLimiter
+api-version: '1.20'
+commands:
+  t:
+    description: Main command for Towny rank limiter
+    usage: /t rank reload
+    permission: townyranklimiter.reload
+    permission-message: "You do not have permission to execute this command."
+permissions:
+  townyranklimiter.reload:
+    description: Allows reloading the TownyRankLimiter configuration.
+    default: op

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TownyRankLimiter:jar">
+    <output-path>$USER_HOME$/OneDrive/Рабочий стол/ProjectPlugins</output-path>
+    <root id="archive" name="TownyRankLimiter.jar">
+      <element id="module-output" name="TownyRankLimiter" />
+    </root>
+  </artifact>
+</component>

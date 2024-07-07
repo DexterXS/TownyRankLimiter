@@ -3,9 +3,9 @@ version: '1.0-SNAPSHOT'
 main: org.dexterx.mc.townyranklimiter.TownyRankLimiter
 api-version: '1.20'
 commands:
-  t:
-    description: Main command for Towny rank limiter
-    usage: /t rank reload
+  trank:
+    description: Towny rank limiter commands
+    usage: /trank reload
     permission: townyranklimiter.reload
     permission-message: "You do not have permission to execute this command."
 permissions:

@@ -17,7 +17,10 @@ public class TownyRankLimiter extends JavaPlugin {
         instance = this;
         saveDefaultConfig();
         configManager = new ConfigManager(this);
-        Objects.requireNonNull(getCommand("t")).setExecutor(new ReloadCommand());
+
+        // Регистрация команды /trank
+        Objects.requireNonNull(getCommand("trank")).setExecutor(new ReloadCommand());
+
         getServer().getPluginManager().registerEvents(new RankAssignListener(configManager), this);
     }
 
